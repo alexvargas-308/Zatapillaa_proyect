@@ -502,7 +502,7 @@ public class Systemview extends javax.swing.JFrame {
 
         jTabbedPane1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Categorias", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
 
-        jPanel1.setBackground(new java.awt.Color(152, 202, 63));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 255));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -661,7 +661,7 @@ public class Systemview extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Producto", jPanel1);
 
-        jPanel2.setBackground(new java.awt.Color(152, 202, 63));
+        jPanel2.setBackground(new java.awt.Color(0, 153, 255));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Nueva compra", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
@@ -810,7 +810,7 @@ public class Systemview extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Compras", jPanel2);
 
-        jPanel16.setBackground(new java.awt.Color(152, 202, 63));
+        jPanel16.setBackground(new java.awt.Color(0, 153, 255));
         jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel17.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Nueva Ventas", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
@@ -991,7 +991,7 @@ public class Systemview extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Ventas", jPanel16);
 
-        jPanel3.setBackground(new java.awt.Color(152, 202, 63));
+        jPanel3.setBackground(new java.awt.Color(0, 153, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Cliente", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
@@ -1131,7 +1131,7 @@ public class Systemview extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Cliente", jPanel3);
 
-        jPanel4.setBackground(new java.awt.Color(152, 202, 63));
+        jPanel4.setBackground(new java.awt.Color(0, 153, 255));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Empleados", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
@@ -1297,7 +1297,7 @@ public class Systemview extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Empleados", jPanel4);
 
-        jPanel5.setBackground(new java.awt.Color(152, 202, 63));
+        jPanel5.setBackground(new java.awt.Color(0, 153, 255));
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Proveedores", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
@@ -1456,7 +1456,7 @@ public class Systemview extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Proveedores", jPanel5);
 
-        jPanel6.setBackground(new java.awt.Color(152, 202, 63));
+        jPanel6.setBackground(new java.awt.Color(0, 153, 255));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel14.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Categorias", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
@@ -1551,7 +1551,7 @@ public class Systemview extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Categorias", jPanel6);
 
-        jPanel7.setBackground(new java.awt.Color(152, 202, 63));
+        jPanel7.setBackground(new java.awt.Color(0, 153, 255));
         jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel44.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -1606,7 +1606,7 @@ public class Systemview extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Reportes", jPanel7);
 
-        jPanel8.setBackground(new java.awt.Color(152, 202, 63));
+        jPanel8.setBackground(new java.awt.Color(0, 153, 255));
         jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel15.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Editar perfil", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N

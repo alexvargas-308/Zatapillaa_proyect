@@ -42,62 +42,62 @@ public class SettingsControllers implements MouseListener{
     @Override
     public void mouseEntered(MouseEvent e) {
         if(e.getSource()== views.jLabelProducts){
-            views.jPanelProducts.setBackground(new Color(152,202,63));
+            views.jPanelProducts.setBackground(new Color(0,153,255));
         }
         else if(e.getSource()== views.jLabelPurchases){
-            views.jPanelPurchases.setBackground(new Color(152,202,63));
+            views.jPanelPurchases.setBackground(new Color(0,153,255));
         }
         else if(e.getSource()== views.jLabelCustomers){
-            views.jPanelCustomers.setBackground(new Color(152,202,63));
+            views.jPanelCustomers.setBackground(new Color(0,153,255));
         }
         else if(e.getSource()== views.jLabelEmployees){
-            views.jPanelEmployees.setBackground(new Color(152,202,63));
+            views.jPanelEmployees.setBackground(new Color(0,153,255));
         }
         else if(e.getSource()== views.jLabelSuppliers){
-            views.jPanelSuppliers.setBackground(new Color(152,202,63));
+            views.jPanelSuppliers.setBackground(new Color(0,153,255));
         }
         else if(e.getSource()== views.jLabelCategories){
-            views.jPanelCategories.setBackground(new Color(152,202,63));
+            views.jPanelCategories.setBackground(new Color(0,153,255));
         }
         else if(e.getSource()== views.jLabelReports){
-            views.jPanelReports.setBackground(new Color(152,202,63));
+            views.jPanelReports.setBackground(new Color(0,153,255));
         }
         else if(e.getSource()== views.jLabelSettings){
-            views.jPanelSettings.setBackground(new Color(152,202,63));
+            views.jPanelSettings.setBackground(new Color(0,153,255));
         }
         else if(e.getSource()== views.jLabelsales){
-            views.jPanelsales.setBackground(new Color(152,202,63));
+            views.jPanelsales.setBackground(new Color(0,153,255));
         }
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
         if(e.getSource()== views.jLabelProducts){
-            views.jPanelProducts.setBackground(new Color(18,45,61));
+            views.jPanelProducts.setBackground(new Color(0,204,255));
         }
         else if(e.getSource()== views.jLabelPurchases){
-            views.jPanelPurchases.setBackground(new Color(18,45,61));
+            views.jPanelPurchases.setBackground(new Color(0,204,255));
         }
         else if(e.getSource()== views.jLabelCustomers){
-            views.jPanelCustomers.setBackground(new Color(18,45,61));
+            views.jPanelCustomers.setBackground(new Color(0,204,255));
         }
         else if(e.getSource()== views.jLabelEmployees){
-            views.jPanelEmployees.setBackground(new Color(18,45,61));
+            views.jPanelEmployees.setBackground(new Color(0,204,255));
         }
         else if(e.getSource()== views.jLabelSuppliers){
-            views.jPanelSuppliers.setBackground(new Color(18,45,61));
+            views.jPanelSuppliers.setBackground(new Color(0,204,255));
         }
         else if(e.getSource()== views.jLabelCategories){
-            views.jPanelCategories.setBackground(new Color(18,45,61));
+            views.jPanelCategories.setBackground(new Color(0,204,255));
         }
         else if(e.getSource()== views.jLabelReports){
-            views.jPanelReports.setBackground(new Color(18,45,61));
+            views.jPanelReports.setBackground(new Color(0,204,255));
         }
         else if(e.getSource()== views.jLabelSettings){
-            views.jPanelSettings.setBackground(new Color(18,45,61));
+            views.jPanelSettings.setBackground(new Color(0,204,255));
         }
         else if(e.getSource()== views.jLabelsales){
-            views.jPanelsales.setBackground(new Color(18,45,61));
+            views.jPanelsales.setBackground(new Color(0,204,255));
         }
     }
     
