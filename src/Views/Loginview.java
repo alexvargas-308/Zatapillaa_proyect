@@ -39,7 +39,7 @@ public class Loginview extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(40, 147, 153));
+        jPanel1.setBackground(new java.awt.Color(0, 204, 255));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -78,7 +78,7 @@ public class Loginview extends javax.swing.JFrame {
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        WallPaper.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/far.jpg"))); // NOI18N
+        WallPaper.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/new coletion (1).jpg"))); // NOI18N
         jPanel2.add(WallPaper, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 420));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 420));
