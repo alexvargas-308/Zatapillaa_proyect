@@ -246,10 +246,10 @@ public class Systemview extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Menu.setBackground(new java.awt.Color(18, 45, 61));
+        Menu.setBackground(new java.awt.Color(0, 204, 255));
         Menu.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanelProducts.setBackground(new java.awt.Color(18, 45, 61));
+        jPanelProducts.setBackground(new java.awt.Color(0, 204, 255));
 
         jLabelProducts.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabelProducts.setForeground(new java.awt.Color(255, 255, 255));
@@ -274,7 +274,7 @@ public class Systemview extends javax.swing.JFrame {
 
         Menu.add(jPanelProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 200, 35));
 
-        jPanelPurchases.setBackground(new java.awt.Color(18, 45, 61));
+        jPanelPurchases.setBackground(new java.awt.Color(0, 204, 255));
 
         jLabelPurchases.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabelPurchases.setForeground(new java.awt.Color(255, 255, 255));
@@ -299,7 +299,7 @@ public class Systemview extends javax.swing.JFrame {
 
         Menu.add(jPanelPurchases, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 200, 35));
 
-        jPanelCustomers.setBackground(new java.awt.Color(18, 45, 61));
+        jPanelCustomers.setBackground(new java.awt.Color(0, 204, 255));
 
         jLabelCustomers.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabelCustomers.setForeground(new java.awt.Color(255, 255, 255));
@@ -324,7 +324,7 @@ public class Systemview extends javax.swing.JFrame {
 
         Menu.add(jPanelCustomers, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 190, 200, 35));
 
-        jPanelEmployees.setBackground(new java.awt.Color(18, 45, 61));
+        jPanelEmployees.setBackground(new java.awt.Color(0, 204, 255));
 
         jLabelEmployees.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabelEmployees.setForeground(new java.awt.Color(255, 255, 255));
@@ -349,7 +349,7 @@ public class Systemview extends javax.swing.JFrame {
 
         Menu.add(jPanelEmployees, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 200, 35));
 
-        jPanelSuppliers.setBackground(new java.awt.Color(18, 45, 61));
+        jPanelSuppliers.setBackground(new java.awt.Color(0, 204, 255));
 
         jLabelSuppliers.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabelSuppliers.setForeground(new java.awt.Color(255, 255, 255));
@@ -374,7 +374,7 @@ public class Systemview extends javax.swing.JFrame {
 
         Menu.add(jPanelSuppliers, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 310, 200, 35));
 
-        jPanelCategories.setBackground(new java.awt.Color(18, 45, 61));
+        jPanelCategories.setBackground(new java.awt.Color(0, 204, 255));
 
         jLabelCategories.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabelCategories.setForeground(new java.awt.Color(255, 255, 255));
@@ -399,7 +399,7 @@ public class Systemview extends javax.swing.JFrame {
 
         Menu.add(jPanelCategories, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 370, 200, 35));
 
-        jPanelReports.setBackground(new java.awt.Color(18, 45, 61));
+        jPanelReports.setBackground(new java.awt.Color(0, 204, 255));
 
         jLabelReports.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabelReports.setForeground(new java.awt.Color(255, 255, 255));
@@ -424,7 +424,7 @@ public class Systemview extends javax.swing.JFrame {
 
         Menu.add(jPanelReports, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 430, 200, 35));
 
-        jPanelSettings.setBackground(new java.awt.Color(18, 45, 61));
+        jPanelSettings.setBackground(new java.awt.Color(0, 204, 255));
 
         jLabelSettings.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabelSettings.setForeground(new java.awt.Color(255, 255, 255));
@@ -449,7 +449,7 @@ public class Systemview extends javax.swing.JFrame {
 
         Menu.add(jPanelSettings, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 490, 200, 35));
 
-        jPanelsales.setBackground(new java.awt.Color(18, 45, 61));
+        jPanelsales.setBackground(new java.awt.Color(0, 204, 255));
 
         jLabelsales.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabelsales.setForeground(new java.awt.Color(255, 255, 255));
@@ -477,17 +477,18 @@ public class Systemview extends javax.swing.JFrame {
         Logo.setBackground(new java.awt.Color(255, 255, 255));
         Logo.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/run (1).jpg"))); // NOI18N
         Logo.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 100));
 
         getContentPane().add(Logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 100));
 
-        Cabecera.setBackground(new java.awt.Color(18, 45, 61));
+        Cabecera.setBackground(new java.awt.Color(0, 204, 255));
         Cabecera.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Farmacia Vida Natural");
+        jLabel2.setText("New Collection");
+        jLabel2.setToolTipText("");
         Cabecera.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 0, 340, 100));
 
         btn_photo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/face.jpg"))); // NOI18N
@@ -1730,7 +1731,7 @@ public class Systemview extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Perfil", jPanel8);
 
-        getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, 1010, 580));
+        getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 1010, 580));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
