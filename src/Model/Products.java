@@ -7,15 +7,16 @@ public class Products {
   private String name;
   private String description;
   private Float unit_price;
- private int product_quantity;
- private String created;
- private String updated;
- private String category_name;
+  private int product_quantity;
+  private String created;
+  private String updated;
+  private int category_id;
+  private String category_name;
 
     public Products() {
     }
 
-    public Products(int id, int code, String name, String description, Float unit_price, int product_quantity, String created, String updated, String category_name) {
+    public Products(int id, int code, String name, String description, Float unit_price, int product_quantity, String created, String updated, int category_id, String category_name) {
         this.id = id;
         this.code = code;
         this.name = name;
@@ -24,6 +25,7 @@ public class Products {
         this.product_quantity = product_quantity;
         this.created = created;
         this.updated = updated;
+        this.category_id = category_id;
         this.category_name = category_name;
     }
 
@@ -91,6 +93,14 @@ public class Products {
         this.updated = updated;
     }
 
+    public int getCategory_id() {
+        return category_id;
+    }
+
+    public void setCategory_id(int category_id) {
+        this.category_id = category_id;
+    }
+
     public String getCategory_name() {
         return category_name;
     }
@@ -98,5 +108,5 @@ public class Products {
     public void setCategory_name(String category_name) {
         this.category_name = category_name;
     }
- 
+
 }
