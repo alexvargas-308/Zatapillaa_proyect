@@ -4,14 +4,22 @@
  */
 package Views;
 
+import Controllers.LoginController;
+import Model.Employees;
+import Model.EmployeesDao;
+
 
 public class Loginview extends javax.swing.JFrame {
-
+//Instanciar clases
+    Employees employee = new Employees();
+    EmployeesDao employees_dao = new EmployeesDao();
   
     public Loginview() {
         initComponents();
         setSize(930,420);
         setResizable(false);
+        //Controlador Login
+        LoginController employee_login = new LoginController(employee, employees_dao,this);
         setTitle("Ingresar al sistema");
         setLocationRelativeTo(null);
         this.repaint();
@@ -72,6 +80,11 @@ public class Loginview extends javax.swing.JFrame {
         btn_enter.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btn_enter.setText("Ingresar");
         btn_enter.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btn_enter.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_enterActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_enter, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 280, 100, 35));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 0, 490, 420));
@@ -89,6 +102,10 @@ public class Loginview extends javax.swing.JFrame {
     private void txt_PasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_PasswordActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txt_PasswordActionPerformed
+
+    private void btn_enterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_enterActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_enterActionPerformed
 
     /**
      * @param args the command line arguments

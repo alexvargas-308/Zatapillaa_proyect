@@ -496,6 +496,11 @@ public class Systemview extends javax.swing.JFrame {
 
         btn_LoginOut.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         btn_LoginOut.setText("Salir");
+        btn_LoginOut.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_LoginOutActionPerformed(evt);
+            }
+        });
         Cabecera.add(btn_LoginOut, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 35, -1, 30));
 
         getContentPane().add(Cabecera, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 0, 1010, 100));
@@ -1748,6 +1753,15 @@ public class Systemview extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txt_email_profileActionPerformed
 
+    private void btn_LoginOutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_LoginOutActionPerformed
+
+     if(evt.getSource()== btn_LoginOut){
+           dispose();
+           Loginview login = new Loginview();
+           login.setVisible(true);
+     }
+    }//GEN-LAST:event_btn_LoginOutActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1791,7 +1805,7 @@ public class Systemview extends javax.swing.JFrame {
     private javax.swing.JPanel Menu;
     public javax.swing.JTable Products_table;
     public javax.swing.JTable Purchases_table;
-    private javax.swing.JButton btn_LoginOut;
+    public javax.swing.JButton btn_LoginOut;
     public javax.swing.JButton btn_add_product_sale;
     public javax.swing.JButton btn_add_product_to_buy;
     public javax.swing.JButton btn_cancel_customer;

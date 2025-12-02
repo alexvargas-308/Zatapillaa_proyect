@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 public class CustomersDao {
     //Instanciar Conexion
-    ConexionSQL cn = new ConexionSQL();
+    ConnectionSQL cn = new ConnectionSQL();
     Connection conn;
     PreparedStatement pst;
     ResultSet rs;

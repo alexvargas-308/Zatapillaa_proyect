@@ -11,7 +11,7 @@ import java.util.List;
 import javax.swing.JOptionPane;
 
 public class PurchasesDao {
-    ConexionSQL cn = new ConexionSQL();
+    ConnectionSQL cn = new ConnectionSQL();
     Connection conn;
     PreparedStatement pst;
     ResultSet rs;
@@ -113,6 +113,28 @@ public class PurchasesDao {
                 + " products pro on pude.product_id = pro.id inner join suppliers su on"
                 + " pu.supplier_id = su.id inner join employees em on"
                 + " pu.employee_id = em.id where pu.id = ?";
+        try{
+            conn = cn.getConnection();
+            pst = conn.prepareStatement(query);
+            pst.setInt(1, id);
+            rs = pst.executeQuery();
+            
+            while(rs.next()){
+                Purchases purchases = new Purchases();
+                purchases.setProduct_name(rs.getString("product_name"));
+                purchases.setPurchase_amount(rs.getInt("purchase_amount"));
+                purchases.setPurchase_price(rs.getFloat("Purchase_price"));
+                purchases.setPurchase_subtotal(rs.getFloat("purchase_subtotal"));
+                purchases.setSupplier_name_product(rs.getString("Supplier_name"));
+                purchases.setCreated(rs.getString("Created"));
+                purchases.setPurchase(rs.getString("full_name"));
+                
+                list_purchases.add(purchases);
+            }
+        }catch(SQLException e){
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
+        return list_purchases;
     }
     
 }

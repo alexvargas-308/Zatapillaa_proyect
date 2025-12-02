@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 public class EmployeesDao {
     //Instanciar Conexion
-    ConexionSQL cn = new ConexionSQL();
+    ConnectionSQL cn = new ConnectionSQL();
     Connection conn;
     PreparedStatement pst;
     ResultSet rs;
@@ -28,7 +28,7 @@ public class EmployeesDao {
     
     //Metodo login
     public Employees loginQuery(String user, String password){
-        String query = "SELECT*FROM employees WHERE username = ? AND passsword = ?";
+        String query = "SELECT*FROM employees WHERE username = ? AND password = ?";
         Employees employee = new Employees();
         
         try{
@@ -48,7 +48,7 @@ public class EmployeesDao {
                 employee.setFull_name(rs.getString("Full_name"));
                 full_name_user = employee.getFull_name();
                 
-                employee.setUsername(rs.getString("user"));
+                employee.setUsername(rs.getString("username"));
                 username_user = employee.getUsername();
                 
                 employee.setAddress(rs.getString("address"));
@@ -57,10 +57,10 @@ public class EmployeesDao {
                 employee.setTelephone(rs.getString("telephone"));
                 telephone_user = employee.getTelephone();
                 
-                employee.setEmail(rs.getString(""));
+                employee.setEmail(rs.getString("email"));
                 email_user = employee.getEmail();
                 
-                employee.setRol(rs.getString(""));
+                employee.setRol(rs.getString("rol"));
                 rol_user = employee.getRol();
             }
         }catch(SQLException e){
@@ -73,7 +73,7 @@ public class EmployeesDao {
     public boolean registerEmployeeQuery(Employees employee){
         String query = "INSERT INTO employees (id, full_name, username, address,"
                 + "telephone, email, password, rol, created, update)"
-                +"VLUES(?,?,?,?,?,?,?,?,?,?";
+                +"VALUES(?,?,?,?,?,?,?,?,?,?";
         
         Timestamp dateTime = new Timestamp(new Date().getTime());
         
@@ -107,7 +107,7 @@ public class EmployeesDao {
     //Lista Empleado
     public List listEmployeesQuery(String value){
         List<Employees> list_employees = new ArrayList();
-        String query = "SELET * FROM employyes ORDER BY rol ASC";
+        String query = "SELECT * FROM employees ORDER BY rol ASC";
         String query_search_employee = "SELECT * FROM employees WHERE"
                 +"id LIKE '%" + value +"%";
         
@@ -169,7 +169,7 @@ public class EmployeesDao {
     
     //Eliminar Empleado
     public boolean deleteEmployeeQuery(int id){
-        String query = "DELETE FROM employees WHERW id ="+id;
+        String query = "DELETE FROM employees WHERE id ="+id;
         try{
             conn = cn.getConnection();
             pst = conn.prepareStatement(query);
@@ -184,7 +184,7 @@ public class EmployeesDao {
     
     //Cambiar Password
     public boolean deleteEmployeePassword(Employees employee){
-        String query = "Update employees SET password = ? WHERE usename = '" + username_user+ '"';
+        String query = "Update employees SET password = ? WHERE username = '" + username_user+ '"';
         try{
             conn = cn.getConnection();
             pst = conn.prepareStatement(query);
